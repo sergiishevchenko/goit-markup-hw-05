@@ -943,3 +943,14 @@ button {
 .filters-link:focus .overlay {
 	transform: translateY(0);
 }
+
+@keyframes popup-anime {
+	0% {
+		transform: translate(250%, -50%);
+		opacity: 0%;
+	}
+	100% {
+		transform: translate(-50%, -50%);
+		opacity: 100%;
+	}
+}
